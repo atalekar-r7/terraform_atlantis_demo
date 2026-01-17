@@ -7,5 +7,5 @@ variable "aws_region" {
 variable "instance_type" {
     description: "This is the region in which i will create my instance"
     value: string
-    default = "t3.micro"
+    default = "t2.micro"
 }
